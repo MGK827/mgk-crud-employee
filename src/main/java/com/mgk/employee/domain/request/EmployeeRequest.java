@@ -14,6 +14,6 @@ public class EmployeeRequest {
     @NotBlank
     private String name;
     @NotBlank
-    private String bloodGroup;
-    @NotBlank private String email;
+    private String email ;
+    @NotBlank private String bloodGroup;
 }

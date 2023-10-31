@@ -27,12 +27,15 @@ dependencies {
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version:'1.7.0'
 	//implementation 'io.swagger.core.v3:swagger-annotations:2.2.15'
 
-	//MapStruct
-	implementation 'org.mapstruct:mapstruct:1.5.2.Final'
-	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.2.Final'
+	//H2DB
+	implementation 'com.h2database:h2'
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+
+	//MapStruct
+	implementation 'org.mapstruct:mapstruct:1.5.2.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.2.Final'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
